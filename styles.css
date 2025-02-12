@@ -54,20 +54,26 @@ h1, h2, h3 {
 .post-card p {
     color: #555;
 }
-.comment-card {
-    border: 1px solid #ddd;
-    border-radius: 5px;
+.comments {
+    margin-top: 15px;
+    padding-left: 20px;
+    border-left: 3px solid #007bff;
+  }
+  
+  .comment {
+    margin-bottom: 10px;
     padding: 10px;
-    margin: 10px 0;
-    background-color: #f9f9f9;
-}
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
 
-.comment-card strong {
-    display: block;
-    color: #333;
-}
-
-.comment-card p {
-    margin: 5px 0;
-    color: #555;
-}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }

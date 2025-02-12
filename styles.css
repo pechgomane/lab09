@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.user-card, .post-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.user-card:hover, .post-card:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.user-card a, .post-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.user-card p, .post-card p {
+    margin: 5px 0;
+}
+
+/* Specific styles for post cards */
+.post-card {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-card h3 {
+    margin: 0;
+    color: #333;
+}
+
+.post-card p {
+    color: #555;
+}
+.comments {
+    margin-top: 15px;
+    padding-left: 20px;
+    border-left: 3px solid #007bff;
+  }
+  
+  .comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
